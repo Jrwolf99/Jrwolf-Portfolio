@@ -1,0 +1,28 @@
+/* Organize CSS rules as follows:
+
+    Display Stuff (grid/flex/inline)
+    Dimensions (width and height)
+    Margin/Padding
+    Background
+    Radius/Border/Outline
+    Typography
+    Additional Misc Stuff
+
+*/
+
+.mobile-hero-piece {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  text-align: center;
+}
+
+.mobile-hero-piece .hero-piece__jobtitle {
+  background: white;
+  padding: 1rem;
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 100;
+  color: var(--solid-lightblue);
+}

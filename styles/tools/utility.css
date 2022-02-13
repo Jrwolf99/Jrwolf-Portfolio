@@ -1,0 +1,25 @@
+:root {
+  --gradient-main: linear-gradient(232.97deg, #00e8e8 -23.95%, #0047ff 133.24%);
+  --solid-orange: #ed7d16;
+  --solid-lightblue: #01a6f2;
+  --solid-darkblue: #00274d;
+}
+
+::selection {
+  background-color: chocolate;
+}
+
+.bluebox {
+  background: var(--gradient-main);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.button {
+  background: var(--solid-orange);
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.208);
+
+  text-align: center;
+}

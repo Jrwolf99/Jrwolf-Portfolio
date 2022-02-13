@@ -1,0 +1,36 @@
+.desktop-nav {
+  flex-direction: row;
+}
+.nav-box {
+  margin: 1rem;
+}
+
+.nav-box--logo {
+  width: 20rem;
+
+  background: url(/assets/HeadLogo.svg);
+  background-repeat: no-repeat;
+}
+
+.nav-box--menu {
+  padding: 0.5rem;
+  margin-left: auto;
+}
+
+.nav-box--menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-box--menu > a {
+  margin: 0 1rem;
+  padding: 1rem;
+  transition: all 0.2s ease;
+}
+
+.nav-box--menu > a:hover {
+  background: white;
+  border-radius: 20px;
+  color: var(--solid-lightblue);
+}

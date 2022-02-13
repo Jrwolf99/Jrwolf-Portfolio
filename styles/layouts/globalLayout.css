@@ -1,0 +1,53 @@
+/***************************************************************************
+                    GLOBAL LAYOUT PAGE
+/***************************************************************************/
+/* Organize CSS rules as follows:
+
+    Display Stuff (grid/flex/inline)
+    Dimensions (width and height)
+    Margin/Padding
+    Background
+    Radius/Border/Outline
+    Typography
+    Additional Misc Stuff
+
+*/
+
+.desktop-nav {
+  display: none;
+}
+
+.desktop-hero-piece {
+  display: none;
+}
+
+.portfolio-section {
+  padding: 1rem;
+}
+.portfolio-section > * {
+  margin: 1rem;
+  text-align: center;
+  color: var(--solid-lightblue);
+}
+
+footer {
+  background: var(--solid-darkblue);
+  padding: 3rem;
+  letter-spacing: 0.15rem;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .mobile-nav {
+    display: none;
+  }
+  .desktop-nav {
+    display: flex;
+  }
+  .mobile-hero-piece {
+    display: none;
+  }
+  .desktop-hero-piece {
+    display: grid;
+  }
+}

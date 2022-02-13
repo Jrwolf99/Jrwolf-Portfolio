@@ -1,0 +1,30 @@
+/***************************************************************************
+                    CONTACT LAYOUT PAGE
+/***************************************************************************/
+/* Organize CSS rules as follows:
+
+    Display Stuff (grid/flex/inline)
+    Dimensions (width and height)
+    Margin/Padding
+    Background
+    Radius/Border/Outline
+    Typography
+    Additional Misc Stuff
+
+*/
+
+.contact-section {
+  background: var(--gradient-main);
+  padding-bottom: 3rem;
+}
+
+.contact-section__title {
+  text-align: center;
+  margin: 2rem;
+}
+
+@media (min-width: 1000px) {
+  nav .bluebox {
+    background: none;
+  }
+}

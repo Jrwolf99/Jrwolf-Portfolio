@@ -1,0 +1,32 @@
+/***************************************************************************
+                    INDEX LAYOUT PAGE
+/***************************************************************************/
+/* Organize CSS rules as follows:
+
+    Display Stuff (grid/flex/inline)
+    Dimensions (width and height)
+    Margin/Padding
+    Background
+    Radius/Border/Outline
+    Typography
+    Additional Misc Stuff
+
+*/
+
+.hero-section {
+  height: 100vh;
+  background: var(--gradient-main);
+}
+
+@media (min-width: 1000px) {
+  .hero-section {
+    background: url(/assets/11.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .portfolio-item-grid {
+    display: flex;
+    flex: 1;
+  }
+}

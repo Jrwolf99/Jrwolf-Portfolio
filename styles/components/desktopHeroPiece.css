@@ -1,0 +1,59 @@
+/* Organize CSS rules as follows:
+
+    Display Stuff (grid/flex/inline)
+    Dimensions (width and height)
+    Margin/Padding
+    Background
+    Radius/Border/Outline
+    Typography
+    Additional Misc Stuff
+
+*/
+
+.desktop-hero-piece {
+  margin: 5rem auto;
+}
+
+.desktop-hero-piece .flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto 0 auto auto;
+}
+
+.desktop-hero-piece .flex-wrapper > * {
+  margin: 1rem;
+}
+
+.desktop-hero-piece .hero-piece__bluebox1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 8rem 0rem 3rem;
+  text-align: right;
+}
+
+.desktop-hero-piece .hero-piece__bluebox2 {
+  grid-area: 1/1;
+  padding: 1rem 0rem 1rem 3rem;
+
+  background: white;
+  padding: 1rem;
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.3rem;
+
+  color: var(--solid-lightblue);
+}
+
+.desktop-hero-piece .hero-piece__pic {
+  grid-area: 1/2;
+  height: 20rem;
+  width: 20rem;
+  background: url(/assets/me1.jpg);
+  background-size: 150%;
+  background-position: 20%;
+  border: var(--solid-orange) 5px solid;
+  border-radius: 50%;
+
+  transform: translateX(-7rem);
+}

@@ -1,0 +1,51 @@
+/* Organize CSS rules as follows:
+
+    Display Stuff (grid/flex/inline)
+    Dimensions (width and height)
+    Margin/Padding
+    Background
+    Radius/Border/Outline
+    Typography
+    Additional Misc Stuff
+
+*/
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.mobile-nav__button {
+  align-self: end;
+}
+
+.mobile-nav__button .bar {
+  height: 5px;
+  width: 31px;
+  margin: 0.5rem;
+  background-color: white;
+  transition: all 0.2s ease;
+}
+
+.mobile-nav__menu {
+  display: none;
+  flex-direction: column;
+
+  background: white;
+
+  border-radius: 10px;
+}
+
+.mobile-nav__menu a {
+  border-radius: 10px;
+}
+
+.mobile-nav__menu a:hover {
+  background: whitesmoke;
+}
+
+.mobile-nav__text {
+  color: var(--solid-lightblue);
+  text-align: center;
+}

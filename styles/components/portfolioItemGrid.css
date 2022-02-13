@@ -1,0 +1,43 @@
+/* Organize CSS rules as follows:
+
+    Display Stuff (grid/flex/inline)
+    Dimensions (width and height)
+    Margin/Padding
+    Background
+    Radius/Border/Outline
+    Typography
+    Additional Misc Stuff
+
+*/
+
+.portfolio-item-grid {
+  display: grid;
+  grid-template-columns: 1;
+  place-content: center;
+}
+
+.item {
+  padding: 1rem;
+  margin: 3rem;
+  max-width: 20rem;
+}
+.item__pic {
+  height: 10rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.item--eclipse .item__pic {
+  background: url(/assets/astro.png);
+  background-position: center;
+  background-size: cover;
+}
+.item--todoapp .item__pic {
+  background: url(/assets/todo.png);
+  background-position: center;
+  background-size: cover;
+}
+.item--previousportfolio .item__pic {
+  background: url(/assets/portfolio.png);
+  background-position: center;
+  background-size: cover;
+}
