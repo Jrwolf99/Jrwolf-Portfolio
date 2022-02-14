@@ -12,6 +12,16 @@
 
 .desktop-hero-piece {
   margin: 5rem auto;
+  animation: slide-in 2s ease-in-out;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-1200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 .desktop-hero-piece .flex-wrapper {
