@@ -1,9 +1,11 @@
-const menu = document.querySelector(".mobile-nav__menu");
-const menuButton = document.querySelector(".mobile-nav__button");
 
-let menuOpen = false;
+    const menu = document.querySelector(".mobile-nav__menu");
+    const menuButton = document.querySelector(".mobile-nav__button");
+    let menuOpen = false;
 
 menuButton.addEventListener('click', () => {
+
+
 
     if (!menuOpen) {
         menuOpen = true;

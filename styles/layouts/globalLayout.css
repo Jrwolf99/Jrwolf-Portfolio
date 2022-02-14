@@ -17,19 +17,6 @@
   display: none;
 }
 
-.desktop-hero-piece {
-  display: none;
-}
-
-.portfolio-section {
-  padding: 1rem;
-}
-.portfolio-section > * {
-  margin: 1rem;
-  text-align: center;
-  color: var(--solid-lightblue);
-}
-
 footer {
   background: var(--solid-darkblue);
   padding: 3rem;
@@ -43,11 +30,5 @@ footer {
   }
   .desktop-nav {
     display: flex;
-  }
-  .mobile-hero-piece {
-    display: none;
-  }
-  .desktop-hero-piece {
-    display: grid;
   }
 }

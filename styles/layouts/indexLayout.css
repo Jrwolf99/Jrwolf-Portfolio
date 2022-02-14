@@ -18,6 +18,20 @@
   background: var(--gradient-main);
 }
 
+.desktop-hero-piece {
+  display: none;
+}
+
+.portfolio-section {
+  overflow-x: hidden;
+}
+
+.portfolio-section > .title {
+  text-align: center;
+  color: var(--solid-lightblue);
+  margin: 2rem;
+}
+
 @media (min-width: 1000px) {
   .hero-section {
     background: url(/assets/11.jpg);
@@ -25,8 +39,31 @@
     background-size: cover;
   }
 
+  .mobile-hero-piece {
+    display: none;
+  }
+  .desktop-hero-piece {
+    display: grid;
+  }
   .portfolio-item-grid {
     display: flex;
     flex: 1;
+    animation: slide-left 20s infinite linear;
+  }
+  @keyframes slide-right {
+    0% {
+      transform: translatex(0px);
+    }
+    100% {
+      transform: translatex(1825px);
+    }
+  }
+  @keyframes slide-left {
+    0% {
+      transform: translatex(1825px);
+    }
+    100% {
+      transform: translatex(0px);
+    }
   }
 }
