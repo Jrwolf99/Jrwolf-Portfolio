@@ -19,13 +19,31 @@
 .item {
   padding: 1rem;
   margin: 3rem;
-  max-width: 20rem;
 }
 .item__pic {
-  height: 10rem;
-  margin: 1rem;
+  height: 8rem;
+  width: 15rem;
+  margin: auto;
   border-radius: 1rem;
 }
+@media (min-width: 800px) {
+  .item__pic {
+    height: 10rem;
+    width: 20rem;
+  }
+}
+@media (min-width: 1000px) {
+  .item__pic {
+    height: 20rem;
+    width: 30rem;
+  }
+}
+
+.item__desc {
+  max-width: 25rem;
+  margin: 1rem auto;
+}
+
 .item--eclipse .item__pic {
   background: url(/assets/astro.png);
   background-position: center;
