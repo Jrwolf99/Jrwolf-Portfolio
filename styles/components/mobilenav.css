@@ -25,7 +25,16 @@
   width: 31px;
   margin: 0.5rem;
   background-color: white;
-  transition: all 0.2s ease;
+
+  transition: all 0.5s ease;
+}
+
+.js-open .bar1 {
+  transform: rotate(-45deg) translate(-10px, -11px);
+}
+
+.js-open .bar2 {
+  transform: rotate(225deg) translate(20px, 0px);
 }
 
 .mobile-nav__menu {
