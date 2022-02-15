@@ -20,6 +20,11 @@
   padding: 1rem;
   margin: 3rem;
 }
+
+.portfolio-item-grid .mobile {
+  display: none;
+}
+
 .item__pic {
   height: 8rem;
   width: 15rem;
@@ -36,6 +41,10 @@
   .item__pic {
     height: 20rem;
     width: 30rem;
+  }
+
+  .portfolio-item-grid .mobile {
+    display: block;
   }
 }
 
