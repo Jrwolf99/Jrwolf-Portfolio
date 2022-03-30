@@ -74,3 +74,9 @@
   background-position: left;
   background-size: cover;
 }
+
+.item--behindchange .item__pic {
+  background: url(/assets/behindchange.png);
+  background-position: center;
+  background-size: cover;
+}

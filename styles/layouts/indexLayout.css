@@ -48,19 +48,19 @@
   .portfolio-item-grid {
     display: flex;
     flex: 1;
-    animation: slide-left 20s infinite linear;
+    animation: slide-left 33s infinite linear;
   }
   @keyframes slide-right {
     0% {
       transform: translatex(0px);
     }
     100% {
-      transform: translatex(2433px);
+      transform: translatex(3042px);
     }
   }
   @keyframes slide-left {
     0% {
-      transform: translatex(2433px);
+      transform: translatex(3042px);
     }
     100% {
       transform: translatex(0px);
