@@ -12,12 +12,12 @@
 
 .desktop-hero-piece {
   margin: 5rem auto;
-  animation: slide-in 2s ease-in-out;
+  animation: slide-in 3s ease-in-out;
 }
 
 @keyframes slide-in {
   0% {
-    transform: translateX(-1200px);
+    transform: translateX(-1800px);
   }
   100% {
     transform: translateX(0px);
