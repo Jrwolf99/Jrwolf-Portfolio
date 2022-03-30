@@ -68,3 +68,9 @@
   background-position: center;
   background-size: cover;
 }
+
+.item--coffeehaus .item__pic {
+  background: url(/assets/coffeehaus.PNG);
+  background-position: left;
+  background-size: cover;
+}
