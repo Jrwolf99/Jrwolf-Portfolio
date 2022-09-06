@@ -1,0 +1,46 @@
+/***************************************************************************
+                    PROJECT PAGE LAYOUT PAGE
+/***************************************************************************/
+/* Organize CSS rules as follows:
+
+    Display Stuff (grid/flex/inline)
+    Dimensions (width and height)
+    Margin/Padding
+    Background
+    Radius/Border/Outline
+    Typography
+    Additional Misc Stuff
+
+*/
+
+.hero-section {
+  background: var(--gradient-main);
+
+  padding-bottom: 3rem;
+}
+
+.hero-section__title {
+  text-align: center;
+  margin: 2rem;
+}
+
+.bluebox {
+  background: none;
+}
+
+@media (min-width: 1000px) {
+  .hero-section {
+    background: url(/assets/circuittree1.png);
+    background-position: center;
+  }
+  .bluebox {
+    background: var(--gradient-main);
+  }
+  nav .bluebox {
+    background: none;
+  }
+  .desktop-nav {
+    background: var(--gradient-main);
+    padding-bottom: 0.3rem;
+  }
+}
