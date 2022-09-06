@@ -53,6 +53,18 @@
   margin: 1rem auto;
 }
 
+.item--tetris .item__pic {
+  background: url(/assets/Tetris\ Clone.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.item--airplane .item__pic {
+  background: url(/assets/airplanestats.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .item--eclipse .item__pic {
   background: url(/assets/astro.png);
   background-position: center;

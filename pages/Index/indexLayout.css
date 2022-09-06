@@ -42,28 +42,15 @@
   .mobile-hero-piece {
     display: none;
   }
-  .desktop-hero-piece {
+  .desktop-hero-piece  {
     display: grid;
   }
   .portfolio-item-grid {
     display: flex;
+    justify-content:left;
     flex: 1;
-    animation: slide-left 33s infinite linear;
+    overflow: auto;
   }
-  @keyframes slide-right {
-    0% {
-      transform: translatex(0px);
-    }
-    100% {
-      transform: translatex(3042px);
-    }
-  }
-  @keyframes slide-left {
-    0% {
-      transform: translatex(3042px);
-    }
-    100% {
-      transform: translatex(0px);
-    }
-  }
+
+
 }
