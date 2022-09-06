@@ -15,16 +15,16 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="/styles/tools/cssReset.css" />
-    <link rel="stylesheet" href="/styles/tools/typography.css" />
-    <link rel="stylesheet" href="/styles/tools/utility.css" />
-    <link rel="stylesheet" href="/styles/components/mobileNav.css" />
-    <link rel="stylesheet" href="/styles/components/desktopNav.css" />
-    <link rel="stylesheet" href="/styles/components/mobileHeroPiece.css" />
-    <link rel="stylesheet" href="/styles/components/desktopHeroPiece.css" />
-    <link rel="stylesheet" href="/styles/components/portfolioItemGrid.css" />
-    <link rel="stylesheet" href="/styles/layouts/globalLayout.css" />
-    <link rel="stylesheet" href="/styles/layouts/indexLayout.css" />
+    <link rel="stylesheet" href="/globalstyles/cssReset.css" />
+    <link rel="stylesheet" href="/globalstyles/typography.css" />
+    <link rel="stylesheet" href="/globalstyles/utility.css" />
+    <link rel="stylesheet" href="/pages/Index/mobile/mobilenav.css" />
+    <link rel="stylesheet" href="/pages/Index/mobile/mobileHeroPiece.css" />
+    <link rel="stylesheet" href="/pages/Index/desktop/desktopNav.css" />
+    <link rel="stylesheet" href="/pages/Index/desktop/desktopHeroPiece.css" />
+    <link rel="stylesheet" href="/pages/Index/portfolioItemGrid.css" />
+    <link rel="stylesheet" href="/globalstyles/globalLayout.css" />
+    <link rel="stylesheet" href="/pages/Index/indexLayout.css" />
   </head>
 
   <body>
@@ -43,8 +43,12 @@
             ><i class="fab fa-github"></i> GitHub
           </a>
           <a href="/index.html#portfolio" class="mobile-nav__text">Portfolio</a>
-          <a href="/about.html" class="mobile-nav__text">About</a>
-          <a href="/contact.html" class="mobile-nav__text">Contact</a>
+          <a href="/pages/aboutPage/about.html" class="mobile-nav__text"
+            >About</a
+          >
+          <a href="/pages/contactPage/contact.html" class="mobile-nav__text"
+            >Contact</a
+          >
         </div>
       </nav>
 
@@ -55,8 +59,8 @@
             ><i class="fab fa-github"></i> GitHub
           </a>
           <a href="/index.html#portfolio">Portfolio</a>
-          <a href="/about.html">About</a>
-          <a href="/contact.html">Contact</a>
+          <a href="/pages/aboutPage/about.html">About</a>
+          <a href="/pages/contactPage/contact.html">Contact</a>
         </div>
       </nav>
 
@@ -85,7 +89,76 @@
       <h3 class="title">A Full Stack and Object Oriented Developer</h3>
 
       <div class="portfolio-item-grid">
-        <!-- ------------------------------------------------------ -->
+        <!-- -------------------------DESKTOP CARUOSEL----------------------------- -->
+
+        <a
+          href="https://jrwolf-eclipse.netlify.app/"
+          target="_blank"
+          class="item item--eclipse bluebox mobile"
+        >
+          <h3 class="item__title">Eclipse</h3>
+          <div class="item__pic"></div>
+          <p class="item__desc">
+            A game which implements animations and transitions in JS and CSS.
+            Shoot the Asteroids! Singleplayer and server-based multiplayer
+            supported.
+          </p>
+        </a>
+
+        <a
+          href="https://jrwolf-todoapp.netlify.app/"
+          target="_blank"
+          class="item item--todoapp bluebox mobile"
+        >
+          <h3 class="item__title">To Do App</h3>
+          <div class="item__pic"></div>
+          <p class="item__desc">
+            A to do app created using ReactJS to keep the day organized. Hosted
+            with Firebase and supports user authentication.
+          </p>
+        </a>
+
+        <a
+          href="https://jrwolf-previousportfolio.netlify.app/"
+          target="_blank"
+          class="item item--previousportfolio bluebox mobile"
+        >
+          <h3 class="item__title">Previous Portfolio</h3>
+          <div class="item__pic"></div>
+          <p class="item__desc">
+            This portfolio's previous version. This website displays previous
+            projects.
+          </p>
+        </a>
+
+        <a
+          href="https://coffee-haus.netlify.app/"
+          target="_blank"
+          class="item item--coffeehaus bluebox mobile"
+        >
+          <h3 class="item__title">Coffee Haus Daily Manager</h3>
+          <div class="item__pic"></div>
+          <p class="item__desc">
+            This is an application made using ReactJS to manage your day through
+            journaling and habit tracking.
+          </p>
+        </a>
+
+        <a
+          href="https://behind-change.netlify.app/"
+          target="_blank"
+          class="item item--behindchange bluebox mobile"
+        >
+          <h3 class="item__title">Behind Change</h3>
+          <div class="item__pic"></div>
+          <p class="item__desc">
+            This is the main website for our organization Behind Change, which
+            reaches out to non-profits to establish or reignite their
+            web-platform.
+          </p>
+        </a>
+
+        <!-- ------------------------CONTINUED DESKTOP CARUOSEL SECOND ROUND------------------------------ -->
 
         <a
           href="https://jrwolf-eclipse.netlify.app/"
@@ -154,76 +227,7 @@
           </p>
         </a>
 
-        <!-- ------------------------------------------------------ -->
-
-        <a
-          href="https://jrwolf-eclipse.netlify.app/"
-          target="_blank"
-          class="item item--eclipse bluebox mobile"
-        >
-          <h3 class="item__title">Eclipse</h3>
-          <div class="item__pic"></div>
-          <p class="item__desc">
-            A game which implements animations and transitions in JS and CSS.
-            Shoot the Asteroids! Singleplayer and server-based multiplayer
-            supported.
-          </p>
-        </a>
-
-        <a
-          href="https://jrwolf-todoapp.netlify.app/"
-          target="_blank"
-          class="item item--todoapp bluebox mobile"
-        >
-          <h3 class="item__title">To Do App</h3>
-          <div class="item__pic"></div>
-          <p class="item__desc">
-            A to do app created using ReactJS to keep the day organized. Hosted
-            with Firebase and supports user authentication.
-          </p>
-        </a>
-
-        <a
-          href="https://jrwolf-previousportfolio.netlify.app/"
-          target="_blank"
-          class="item item--previousportfolio bluebox mobile"
-        >
-          <h3 class="item__title">Previous Portfolio</h3>
-          <div class="item__pic"></div>
-          <p class="item__desc">
-            This portfolio's previous version. This website displays previous
-            projects.
-          </p>
-        </a>
-
-        <a
-          href="https://coffee-haus.netlify.app/"
-          target="_blank"
-          class="item item--coffeehaus bluebox mobile"
-        >
-          <h3 class="item__title">Coffee Haus Daily Manager</h3>
-          <div class="item__pic"></div>
-          <p class="item__desc">
-            This is an application made using ReactJS to manage your day through
-            journaling and habit tracking.
-          </p>
-        </a>
-
-        <a
-          href="https://behind-change.netlify.app/"
-          target="_blank"
-          class="item item--behindchange bluebox mobile"
-        >
-          <h3 class="item__title">Behind Change Website</h3>
-          <div class="item__pic"></div>
-          <p class="item__desc">
-            This is the main website for our organization Behind Change, which
-            reaches out to non-profits to establish or reignite their
-            web-platform.
-          </p>
-        </a>
-
-        <!-- ------------------------------------------------------ -->
+        <!-- ---------------------------MOBILE VERSION INFO--------------------------- -->
 
         <a
           href="https://jrwolf-eclipse.netlify.app/"
