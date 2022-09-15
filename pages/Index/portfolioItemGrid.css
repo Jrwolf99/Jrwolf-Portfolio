@@ -81,6 +81,13 @@
   background-size: cover;
 }
 
+
+.item--violin .item__pic {
+  background: url(/assets/violin.png);
+  background-position: center;
+  background-size: cover;
+}
+
 .item--coffeehaus .item__pic {
   background: url(/assets/coffeehaus.PNG);
   background-position: left;
