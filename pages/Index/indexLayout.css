@@ -47,7 +47,8 @@
   }
   .portfolio-item-grid {
     display: flex;
-    justify-content:left;
+    flex-wrap: wrap;
+    justify-content:center;
     flex: 1;
     overflow: auto;
   }
